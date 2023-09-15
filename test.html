@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Laboratory Task 6</title>
+        <script src = "hello22.js" defer></script>
+        <link rel = "stylesheet" type="text/css" href = "style1.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "signup2">Sign Up</div>
+            <br>
+            <br>
+        <form name="myForm" onsubmit="return validateForm()" method="post" required onreset="return resetAll()">
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+            <br>
+            <br>
+            <input type="text" id="initial" name="initial" placeholder="Middle initial">
+            <br>
+            <br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+            <br>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Email Address">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+            <br>
+            <input type="reset" value="Reset">
+          </form>
+        </div>
+    </body>
+</html>

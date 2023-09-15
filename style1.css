@@ -1,0 +1,57 @@
+#fname{
+    border: 1px solid #ccc;
+}
+
+#fname.changed{
+    border: 1px solid red;
+}
+
+#initial{
+    border: 1px solid #ccc;
+}
+
+#initial.changed{
+    border: 1px solid red;
+}
+
+#lname{
+    border: 1px solid #ccc;
+}
+
+#lname.changed{
+    border: 1px solid red;
+}
+
+#email{
+    border: 1px solid #ccc;
+}
+
+#email.changed{
+    border: 1px solid red;
+}
+
+.container{
+    border: 2px;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -50px;
+    width: 175px;
+    height: 300px;
+    padding: 20px;
+}
+.signup2{
+    text-align: center;
+}
+
+input[type=submit]{
+    width: 100%;
+    padding: 10px;
+}
+
+input[type=reset]{
+    width: 100%;
+    padding: 10px;
+}
